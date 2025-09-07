@@ -1,0 +1,32 @@
+{
+  "name": "gangnam-naneum-platform",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "chart.js": "latest",
+    "eslint": "^8",
+    "eslint-config-next": "15.1.0",
+    "framer-motion": "latest",
+    "lucide-react": "latest",
+    "next": "15.1.0",
+    "react": "^19.0.0",
+    "react-chartjs-2": "latest",
+    "react-dom": "^19.0.0",
+    "react-hot-toast": "latest",
+    "typescript": "^5"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.21",
+    "postcss": "^8.5.6",
+    "tailwindcss": "^3.4.17"
+  }
+}

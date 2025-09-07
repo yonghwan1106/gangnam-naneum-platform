@@ -1,0 +1,23 @@
+<svg width="400" height="400" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f3e8ff" />
+      <stop offset="50%" stop-color="#ec4899" />
+      <stop offset="100%" stop-color="#f2fcfc" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="400" height="400" fill="url(#gradient)" rx="20"/>
+  
+  <!-- Border -->
+  <rect width="380" height="380" x="10" y="10" fill="none" stroke="#e11d48" stroke-width="3" rx="15"/>
+  
+  <!-- Heart icon -->
+  <path d="M200 120c-20.7-37-150-30-150 25 0 25 15 45 150 105 135-60 150-80 150-105 0-55-129.3-62-150-25z" fill="#e11d48"/>
+  
+  <!-- Certificate text -->
+  <text x="200" y="290" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="24" font-weight="bold" fill="#192037" text-anchor="middle">나눔 인증서</text>
+  <text x="200" y="320" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="16" fill="#5f6368" text-anchor="middle">강남구청</text>
+  <text x="200" y="345" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="12" fill="#5f6368" text-anchor="middle">Gangnam Naneum</text>
+</svg>
